@@ -2,7 +2,7 @@ services:
   postgres:
     image: 'postgres:latest'
     environment:
-      - 'POSTGRES_DB=payment'
+      - 'POSTGRES_DB=inventory'
       - 'POSTGRES_PASSWORD=Huy1235679'
       - 'POSTGRES_USER=huy'
     ports:
